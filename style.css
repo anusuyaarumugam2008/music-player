@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.music{
+    box-shadow: 0 0 20px;
+    border-radius: 30px;
+    display:inline-block;
+    text-align: center;
+    background-color: #219090;
+    margin-top: 60px;
+    border: 30px;
+    padding: 40px;
+    height: 400px;
+    width: 300px;
+
+}
+.one{
+    box-shadow: 0 0 20px;
+    border-radius: 30px;
+    display:inline-block;
+    text-align: center;
+    background-color: #219090;
+     margin-top: 60px;
+    border: 30px;
+    padding: 40px;
+    height: 400px;
+    width: 300px;
+}
+
+.two{
+    box-shadow: 0 0 20px;
+    border-radius: 30px;
+    display:inline-block;
+    text-align: center;
+    background-color: #219090;
+     margin-top: 60px;
+    border: 30px;
+    padding: 40px;
+    height: 400px;
+    width: 300px;
+}
+.i,.j,.k{
+    padding-bottom: 10px;
+}
+h2{
+    padding-bottom: 40px;
+}
+.ka{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.i,.j,.k{
+    width: 300px;
+    height: 250px;
+}
+.do
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-top:20px;
+    background-color: rgb(63, 62, 60);
+}
+.g{
+    color: aliceblue;
+}
+.g:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+.did{
+    color: aliceblue;
+}
+body{
+    background-color: rgb(206, 196, 19);
+}
+.hi{
+    border-radius: 30px;
+    padding: 10px;
+}
+.music,.one,.two:hover{
+    width:350;
+    height: 450;
+}
+@media(min-width:992px){
+    .ka{
+        flex:0 0 30%;
+    }
+}
+nav,.p{
+    background-color: rgb(63, 62, 60);
+}
+nav,ul,li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.music:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+.one:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+.two:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
